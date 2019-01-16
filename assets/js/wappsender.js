@@ -9,7 +9,7 @@ function wappear() {
         wapp += `, Mi nombre es *${input.value}*`
       }
       if (input.name === 'date') {
-        wapp += `,es para el día *${input.value}*`
+        wapp += `, es para el día *${input.value}*`
       }
       if (input.name === 'time') {
         wapp += `, En el horario de las *${input.value}*`
