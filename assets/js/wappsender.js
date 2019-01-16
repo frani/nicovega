@@ -1,8 +1,7 @@
 var inputs = document.querySelectorAll('input')
-var wapp = 'http://wa.me/5492615953291?text=Hola Nico Vega ✂️ 🛵 : Estoy Buscando un Turno!'
-
 
 function wappear() {
+  var wapp = 'http://wa.me/5492615953291?text=Hola Nico Vega ✂️ 🛵 : Estoy Buscando un Turno!'
   for ( let input of inputs){
     if (input.value !== "") {
       if (input.name === 'name') {
