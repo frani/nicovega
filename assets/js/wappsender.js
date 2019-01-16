@@ -1,5 +1,5 @@
 var inputs = document.querySelectorAll('input')
-var wapp = 'http://wa.me/5492613453355?text=Hola Nico Vega ✂️ 🛵 : Estoy Buscando un Turno!'
+var wapp = 'http://wa.me/5492615953291?text=Hola Nico Vega ✂️ 🛵 : Estoy Buscando un Turno!'
 
 
 function wappear() {
