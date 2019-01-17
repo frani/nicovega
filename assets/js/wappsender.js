@@ -1,4 +1,4 @@
-var inputs = document.querySelectorAll('input')
+var inputs = document.querySelectorAll('input, textarea')
 
 var gMapString
 
@@ -34,7 +34,7 @@ function getLocation() {
 }
 
 function wappear() {
-  var wapp = 'http://wa.me/5492615953291?text=Hola Nico Vega ✂️ 🛵 : Estoy Buscando un Turno!'
+  var wapp = 'http://wa.me/5492615953291?text=_Hola Nico Vega 🛵💨💈💇🏼‍♂✂️:_ Estoy Buscando un Turno!'
   for ( let input of inputs){
     if (input.value !== "") {
       if (input.name === 'name') {
