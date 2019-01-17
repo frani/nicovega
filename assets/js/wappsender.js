@@ -54,6 +54,6 @@ function wappear() {
   if (typeof gMapString !== "undefined") {
     wapp += `, esta es mi localización ${gMapString} `
   }
-  wapp += ` muchas gracias`
+  wapp += ` muchas gracias 😄`
   window.open(wapp)
 }
