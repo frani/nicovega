@@ -10,14 +10,13 @@ var options = {
 
 function success(pos) {
   gMapString = 'https://maps.google.com/?q='
-  var crd = pos.coords
-  var flag = true
+  var {latitude, longitude, accuracy} = pos.coords
   console.log('Your current position is:')
-  console.log(`Latitude : ${crd.latitude}`)
-  gMapString += `${crd.latitude},`
-  console.log(`Longitude: ${crd.longitude}`)
-  gMapString += `${crd.longitude}`
-  console.log(`More or less ${crd.accuracy} meters.`)
+  console.log(`Latitude : ${latitude}`)
+  gMapString += `${latitude},`
+  console.log(`Longitude: ${longitude}`)
+  gMapString += `${longitude}`
+  console.log(`More or less ${accuracy} meters.`)
 
   document.getElementById('sendCoorLabel').innerHTML = `Coordenadas Obtenidas Exitosamente`
 
